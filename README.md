@@ -8,7 +8,6 @@ Mern Stack Product Management System. It is a Task Project for Recruitment to Ze
 - **Backend**: Created using **Express.js**, **JWT** for authentication, and **Bcrypt.js** for secure password hashing.
 - **Axios**: Used for API requests to the backend.
 - **Authentication**: JWT-based authentication for secure user management.
-- **Responsive**: Fully responsive and optimized for all screen sizes.
 
 ## 🛠️ Tech Stack
 
