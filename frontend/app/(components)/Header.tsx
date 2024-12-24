@@ -18,8 +18,8 @@ const Header = () => {
                 <h3 className='text-3xl font-semibold text-white'>TaskCommerce</h3>
             </div>
             <div className='text-lg flex items-center gap-5'>
-                <Link href={"/products"}>Ürünler</Link>
-                <Link href={"/dashboard"}>Dashboard</Link>
+                <Link className='hover:text-red-600 transition duration-300' href={"/products"}>Ürünler</Link>
+                <Link className='hover:text-red-600 transition duration-300' href={"/dashboard"}>Dashboard</Link>
             </div>
             <div><Button onClick={() => logOut()}>Log Out</Button></div>
         </div>
